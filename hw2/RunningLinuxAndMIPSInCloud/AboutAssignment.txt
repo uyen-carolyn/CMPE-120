@@ -1,14 +1,20 @@
-1. Open an AWS account - 1pt
+This assignment is to help students become more familiar with Linux and see the process of code turn from a prgram written in a high-programming language (C) into an executable program. 
+---------------------------------------------
+---------------------------------------------
+1. Open an AWS account 
     a. Submit a screenshot of "My account" web page on AWS console
 2. Launch qemu-debian-9-mipsel image and start QEMU - 1pt
     b. Submit a screenshot of the terminal right after you login into debian/mpisel virtual machine
-3. Go through Linux tutorial - 1pt
-    a. Go to this [link](http://www.ee.surrey.ac.uk/Teaching/Unix/) and finish all sections up to "Tutorial Six", including all exercises
-        - In "Tutorial Two", replace command "cp /vol/ee/ee-info/Teaching/Unix/science.txt ." with "wget http://www.ee.surrey.ac.uk/Teaching/Unix/science.txt"
+3. Go through Linux tutorial 
+    a. Go to this link: 
+       http://www.ee.surrey.ac.uk/Teaching/Unix/
+       and finish all sections up to "Tutorial Six", including all exercises. 
+        - In "Tutorial Two", replace command "cp /vol/ee/ee-info/Teaching/Unix/science.txt ." with "wget        
+          http://www.ee.surrey.ac.uk/Teaching/Unix/science.txt"
     c. Run the following command, "ls -lR ~/unixstuff > linux-tutorial.txt"
-    d. Submit linux-tutorial.txt file
-4. Create a hello program - 3 pt
-    a. Create hello.c file with the exact same content as in this file, ch2_hello.c
+    d. Submit the linux-tutorial.txt file
+4. Create a hello program 
+    a. Create hello.c file with the exact same content as in this file (ch2_hello.c)
         - replace variable my_name with your own name.
     b. Create corresponding assembly code, object file and executable file
     c. Submit hello.c, hello.s, hello.o and a.out files
