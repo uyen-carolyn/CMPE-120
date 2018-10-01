@@ -4,11 +4,12 @@
     b. Submit a screenshot of the terminal right after you login into debian/mpisel virtual machine
 3. Go through Linux tutorial - 1pt
     a. Go to this [link](http://www.ee.surrey.ac.uk/Teaching/Unix/) and finish all sections up to "Tutorial Six", including all exercises
-        1. In "Tutorial Two", replace command "cp /vol/ee/ee-info/Teaching/Unix/science.txt ." with "wget http://www.ee.surrey.ac.uk/Teaching/Unix/science.txt"
+        - In "Tutorial Two", replace command "cp /vol/ee/ee-info/Teaching/Unix/science.txt ." with "wget http://www.ee.surrey.ac.uk/Teaching/Unix/science.txt"
     c. Run the following command, "ls -lR ~/unixstuff > linux-tutorial.txt"
     d. Submit linux-tutorial.txt file
 4. Create a hello program - 3 pt
-    a. Create hello.c file with the exact same content as in this file, ch2_hello.c, except that replace variable my_name with your own name.
+    a. Create hello.c file with the exact same content as in this file, ch2_hello.c
+        - replace variable my_name with your own name.
     b. Create corresponding assembly code, object file and executable file
     c. Submit hello.c, hello.s, hello.o and a.out files
     d. Submit a screenshot of running a.out file
