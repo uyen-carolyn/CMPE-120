@@ -1,0 +1,26 @@
+This assignment is about altering the assembly code of a given file and looking at the 
+instruction encoding of the same program. 
+---------------------------------------------
+---------------------------------------------
+1. Perform modulo operation of 2 unsigned integers
+  a. Please use these 2 files as your base, simple-op-main.c and simple-op.S
+  b. Modify simple-op-main.c to use your own name
+  c. Modify simple-op.S file to perform modulo operation
+      - For a formal definition of modulo definition, see 
+       https://en.wikipedia.org/wiki/Modulo_operation
+      - Hint : refer to class note for "div" instruction and ways to access special hi/lo registers
+  d. Generate executable file a.out
+  e. Run executable with a=10000 and b=123
+  f. Submit 3 files
+      - screen capture of running the above execution of a.out (pdf, or jpg, or png) (1pt)
+      - a.out 
+      - simple-op.S 
+2. Examine instruction encoding
+    a. Use assembler to create simple-op.o file from simple-op.S file
+    b. Use objdump program to disassemble simple-op.o 
+      - Hint: note the "-d" option
+    c. Submit a report that includes:
+      - the hexadecimal value of the first instruction in simple_op function 
+      - Convert the above hexadecimal value into 32-bit binary value 
+      - Determine the instruction format (R-format or I-format) 
+      - List out binary values for each sub-field in the instruction
