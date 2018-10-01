@@ -1,4 +1,5 @@
-This assignment is to help students become more familiar with Linux and see the process of code turn from a prgram written in a high-programming language (C) into an executable program. 
+This assignment is to help students become more familiar with Linux and see the process of code 
+turn from a prgram written in a high-programming language (C) into an executable program. 
 ---------------------------------------------
 ---------------------------------------------
 1. Open an AWS account 
