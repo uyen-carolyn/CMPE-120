@@ -1,7 +1,6 @@
 This assignment is about altering the assembly code of a given file and looking at the 
 instruction encoding of the same program. 
----------------------------------------------
----------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
 1. Perform modulo operation of 2 unsigned integers
   a. Please use these 2 files as your base, simple-op-main.c and simple-op.S
   b. Modify simple-op-main.c to use your own name
@@ -15,6 +14,7 @@ instruction encoding of the same program.
       - screen capture of running the above execution of a.out (pdf, or jpg, or png) (1pt)
       - a.out 
       - simple-op.S 
+
 2. Examine instruction encoding
     a. Use assembler to create simple-op.o file from simple-op.S file
     b. Use objdump program to disassemble simple-op.o 
