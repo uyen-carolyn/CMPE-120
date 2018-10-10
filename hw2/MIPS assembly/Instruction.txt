@@ -1,20 +1,30 @@
-create, build and run bubble sort program
-Download the 2 files from sort-main.cPreview the document and sort.SPreview the document
-Create those 2 files in QEMU/debian-mipsel virtual machine on Amazon Cloud
-Please modify sort-main.c file to use your own name
-Compile, assemble and link to create a.out executable 
-[hint] you can use shortcut, "gcc <file1> <file2> ...."
-Make a copy of the executable file, "cp a.out sort-a.out"
-Run "sort-a.out" and capture a screenshot
-Submission
-Submit sort-a.out file and its running screenshot
-2. Modified bubble sort - (3pt)
 
-Modify the sorting program to sort "char" array instead of "int" array
-[hint] in sort-main.c file, change all "int a[]" declarations to "char a[]"
-Build a.out executable file
-Make a copy of the executable file, "cp a.out sort-char-a.out"
-Run "sort-char-a.out" program and capture a screenshot
-Submission
-Submit modified sort-main.c and sort.S file (2pt)
-Submit sort-char-a.out and its running screenshot (2pt)
+--------------------------------------------------------------------------------------------------------------------
+1. Bubble Sort - Original
+  a. Create, build and run bubble sort program
+    - Download the 2 files from sort-main.c and sort.S
+    - Create those 2 files in QEMU/debian-mipsel virtual machine on Amazon Cloud. Please modify sort-main.c file to use your own name
+    - Compile, assemble and link to create a.out executable 
+      [hint] you can use shortcut, "gcc <file1> <file2> ...."
+    - Make a copy of the executable file, "cp a.out sort-a.out"
+    - Run "sort-a.out" and capture a screenshot
+  b. Submission
+    - Submit sort-a.out file and its running screenshot
+2. Modified bubble sort
+  a. Modify the sorting program to sort "char" array instead of "int" array
+      [hint] in sort-main.c file, change all "int a[]" declarations to "char a[]"
+    - Build a.out executable file
+    - Make a copy of the executable file, "cp a.out sort-char-a.out"
+    - Run "sort-char-a.out" program and capture a screenshot
+  b. Submission
+    - Submit modified sort-main.c and sort.S file 
+    - Submit sort-char-a.out and its running screenshot
+3. Summation of Integer Array (Bonus) 
+  a. Download and create summation-main.c in QEMU/debian-mipsel virtual machine, summation-main.c
+    - Modify to use your own name
+  b. Create summation.S file that defines "int sum(int a[], int n)" function. 
+    - This function will add up all elements in array a and return the result
+  c. Build executable a.out file and make a copy
+  d. Run summation-a.out and capture a screenshot
+  e. Submission
+    - Submit modified summation-main.c, summation.S and screenshot
